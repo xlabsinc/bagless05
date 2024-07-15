@@ -1,0 +1,12 @@
+# 
+# Filename    : .github/CODEOWNERS
+# Date        : 14 Jul 2024
+# Author      : Balaji V (xbalaji@gmail.com)
+# Description : Codeowners for files in this repository
+
+* @xlabsinc/xbalaji-accounts
+.* @xlabsinc/xbalaji-accounts
+
+# read more about setting up code owners at:
+# https://help.github.com/articles/about-code-owners/ 
+

@@ -1,0 +1,15 @@
+{
+  "title": [
+    {
+      "pattern": "^(build|update|feature|create|ci|docs|feat|fix|perf|refactor|style|test|add|delete)",
+      "flags": ["i"],
+      "message": "Your title needs to be prefixed with one of the keywords: build,ci,docs,feat,fix,perf,refactor,style,test,add,delete"
+    }
+  ],
+  "body": [
+    {
+      "pattern": ".{1,}",
+      "message": "You need literally anything in your description"
+    }
+  ]
+}
