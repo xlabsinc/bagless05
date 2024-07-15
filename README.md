@@ -28,10 +28,10 @@
 
 ##### create remote repo using gh cli
   ```
-  gh repo create --private "git@github.com:${GH_ORG}/${GH_REPO}"
+  gh repo create --private "git@github.com:${GH_ORG}/${GH_REPO}" -p xlabsinc/template01
 
   e.g:
-  gh repo create --private git@github.com:xlabsinc/pub
+  gh repo create --private git@github.com:xlabsinc/pub -p xlabsinc/template01
   ```
 
 ##### configure the repo with the remote repo
