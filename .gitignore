@@ -1,0 +1,87 @@
+#
+# Filename    : .gitignore
+# Date        : 05 Nov 2020
+# Author      : Balaji Venkataraman (xbalaji@gmail.com)
+# Description : gitignore to avoid temporary files from change
+#               set and accidental commit, push to the repo
+#               ref: https://git-scm.com/docs/gitignore
+
+# python2, python3 environments
+**/.env
+**/.venv
+**/.venv_py/
+**/.coverage
+**/.pytest_cache/
+**/*.pyc
+**/*.egg-info/
+**/__pycache__/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+instance/
+dist/
+build/
+htmlcov/
+
+# javascript, nodejs
+#*.js
+#*.d.ts
+*.output
+*.log
+**/node_modules
+**/build/
+**/output/
+
+# vi/vim, shell
+**/.idea/*
+**/*DS_Store*
+**/__MACOSX/
+**/*-packaged.yaml
+**/*-packaged.yml
+**/.*.un*
+**/.*.sw*
+**/*bash.exe.stackdump
+**/*.iml
+
+# CDK asset staging directory
+**/.cdk.staging
+**/cdk.out/
+**/cdk-local.sh
+
+# Local .terraform directories
+**/.terraform/*
+**/.terraform.lock.hcl
+
+# .tfstate files
+**/*.tfstate
+**/*.tfstate.*
+
+# crash log files
+**/crash.log
+override.tf
+override.tf.json
+**/*_override.tf
+**/*_override.tf.json
+# example: *tfplan*
+
+**/*.so
+**/*.pyc
+**/*.sw?
+**/*.egg-info
+**/__pycache__
+**/*build*
+certs/*.crt
+certs/*.key
+**/*backup
+**/*.vscode
+**/*.out
+**/.terraform
+**/.terraform.lock.hcl
+**/terraform.tfstate
+**/terraform.tfstate.d
+**/*-packaged.yaml
+**/*-processed.yaml
+**/*-tags.json
+#**/*.tfvars
