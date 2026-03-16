@@ -75,3 +75,5 @@
   ```
 
 ----
+
+This README was updated automatically via create_github_repo.sh script.
